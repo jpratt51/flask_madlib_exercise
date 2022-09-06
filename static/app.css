@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #e6cd8a;
+}
+#content {
+    font-family: 'MedievalSharp', cursive;
+    margin: 2.5em;
+    text-align: center;
+    font-size: 1.5em
+}
+h1 {
+    font-size: 2.5em;
+    color: #941507;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 2.5em;
+    padding: .4em;
+    border: 2px solid black;
+    color: #941507;
+}
+footer {
+    text-align: center;
+    padding: 50px;
+}

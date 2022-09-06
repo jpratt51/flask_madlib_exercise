@@ -1,0 +1,13 @@
+    {% extends 'base.html' %}
+    {% block title %} Stories {% endblock %}
+    {% block content %}
+    <form action="/question-form" method="GET">
+        <h1>Choose a Madlib Story Template</h1>
+        <p>Story 1: Once Upon A Time <input type="radio" name="story" value="s1"></p>
+        <p>Story 2: Majestic Animal <input type="radio" name="story" value="s2"></p>
+        <p>Story 3: Nature Story <input type="radio" name="story" value="s3"></p>
+        <p>Story 4: Pizza Pizza <input type="radio" name="story" value="s4"></p>
+        <p>Story 5: Computers <input type="radio" name="story" value="s5"></p>
+        <button>Submit</button>
+    </form>
+    {% endblock %}
